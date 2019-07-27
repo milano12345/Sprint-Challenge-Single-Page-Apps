@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function CharacterCard ({props}) {
+export default function CharacterCard ({char}) {
   return (<div>
-    <div>Character Name: {props.name}</div>
-    <div>Gender: {props.gender}</div>
-    <div>Species: {props.species}</div>
-    <div>Status: {props.status}</div>
+    <div>Character Name: {char.name}</div>
+    <div>Gender: {char.gender}</div>
+    <div>Species: {char.species}</div>
+    <div>Status: {char.status}</div>
     </div>)
 }
